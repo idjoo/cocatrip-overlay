@@ -14,9 +14,11 @@ inherit cargo
 
 DESCRIPTION="A plant-based system fetch tool made with Rust."
 HOMEPAGE="https://github.com/angelofallars/treefetch"
-# SRC_URI="https://github.com/angelofallars/${PN}/archive/v${PV}.tar.gz"
-# SRC_URI+=" $(cargo_crate_uris)"
-SRC_URI="$(cargo_crate_uris)"
+SRC_URI="https://github.com/angelofallars/${PN}/archive/v${PV}.tar.gz"
+SRC_URI+=" $(cargo_crate_uris)"
+
+# EGIT_REPO_URI="https://github.com/angelofallars/${PN}.git"
+# SRC_URI="$(cargo_crate_uris)"
 
 LICENSE="GPL-3"
 SLOT="0"
