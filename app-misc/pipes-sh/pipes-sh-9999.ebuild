@@ -6,7 +6,7 @@ EAPI=7
 inherit git-r3
 
 DESCRIPTION="Animated pipes terminal screensaver"
-HOMEPAGE="https://github.com/pipeseroni/treefetch"
+HOMEPAGE="https://github.com/pipeseroni/pipes.sh"
 
 EGIT_REPO_URI="https://github.com/pipeseroni/pipes.sh.git"
 
@@ -17,5 +17,5 @@ IUSE=""
 BDEPEND=""
 DEPEND="dev-util/shunit2
 	sys-libs/ncurses
-	>=app-shells/bash-4.0_p44"
+	>=app-shells/bash-4.0_p44:*"
 RDEPEND="${DEPEND}"
